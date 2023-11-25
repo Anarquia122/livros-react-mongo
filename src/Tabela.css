@@ -1,0 +1,42 @@
+tr:nth-child(odd) {
+    background-color: #858585;
+}
+
+tr:nth-child(even) {
+    background-color: #d6d6d6;
+}
+
+td {
+    padding: 10px;
+    word-wrap: break-word;
+    max-width: 190px;
+}
+
+td.titulo {
+    display: flex;
+    flex-direction: column;
+}
+
+button.excluir {
+    background-color: rgb(209, 56, 56);
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 60px;
+}
+
+button.excluir:hover {
+    background-color: red;
+}
+
+tr.cabeca {
+    background-color: black;
+    color: #ffffff;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    padding: 20px;
+}
